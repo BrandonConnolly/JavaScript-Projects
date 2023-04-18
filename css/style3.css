@@ -1,0 +1,23 @@
+.page-heading {
+  background-color: rgba(222, 194, 70, 0.685);
+  background-image: url("../photos/res.jpg");
+  background-size: cover;
+  background-blend-mode: multiply;
+  color: rgba(226, 227, 239, 0.94);
+  text-align: center;
+  padding-top: 200px;
+  padding-bottom: 200px;
+}
+
+nav {
+  background-color: black;
+  padding: 20px;
+  color: white;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  margin-right: 20px;
+}
