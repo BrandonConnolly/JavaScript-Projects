@@ -1,0 +1,118 @@
+.topnav {
+  background-color: rgb(0, 0, 0);
+  overflow: hidden;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+
+img.image {
+  flex-basis: 40%;
+  image-resolution: inherit;
+  border-style: double;
+  border: 10px rgb(252, 252, 252);
+}
+
+a {
+  color: azure;
+  font-size: 15px;
+  padding-left: 15px;
+  font-family: sans-serif;
+  text-decoration: none;
+  text-align: left;
+}
+p {
+  color: rgb(0, 0, 0);
+  text-align: center;
+  font-family: "Times New Roman", Times, serif;
+  font-size: 20px;
+}
+body {
+  background-color: rgb(0, 0, 0);
+  background-image: url("");
+  background-attachment: fixed;
+}
+
+h1 {
+  color: azure;
+  font-weight: 500;
+  font-size: 100px;
+  font-family: "Courier New", Courier, monospace;
+  text-align: center;
+  background-color: rgb(0, 0, 0);
+  background-blend-mode: color-burn;
+  margin-top: 10px;
+  margin-bottom: 0;
+  padding: 10px;
+}
+h2 {
+  color: azure;
+  font-weight: 100;
+  font-size: 20px;
+  font-family: "Courier New", Courier, monospace;
+  text-align: center;
+  background-color: rgb(0, 0, 0);
+  margin: 0;
+  padding: 10px;
+  padding-bottom: 50px;
+}
+
+.inTouchForm {
+  background-color: #fffffff7b;
+  background-blend-mode: color-burn;
+  color: rgb(0, 0, 0);
+  float: inline-start;
+  margin-right: 150px;
+}
+.inTouch-info {
+  justify-content: right;
+  float: inline-end;
+  margin-right: 150px;
+  color: rgb(0, 0, 0);
+  background-color: #ffffff7b;
+  background-blend-mode: color-burn;
+  border: solid azure;
+  margin: 0 auto; /* center horizontally */
+}
+p.inTouch-info {
+  color: rgb(0, 0, 0);
+}
+
+.image-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-gap: 50px;
+  justify-items: center;
+}
+
+.item {
+  display: grid;
+  grid-template-rows: auto 1fr;
+  text-align: center;
+}
+
+.text {
+  color: rgb(14, 14, 15);
+  font-size: 1.2rem;
+  font-weight: bold;
+  margin-top: 10px;
+}
+.box {
+  border: 1px solid rgb(253, 253, 253);
+  padding: 10px;
+  background-color: #ffffff7b;
+  width: 500px;
+  height: 120px;
+  margin: 0 auto; /* center horizontally */
+}
+li {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #4caf50;
+  color: rgb(4, 4, 4);
+  text-align: center;
+  text-decoration: none;
+  font-size: 16px;
+  border-radius: 5px;
+  border: none;
+  cursor: pointer;
+  margin-right: 10px;
+}
